@@ -1,0 +1,9 @@
+
+protected function registerBundles()
+{
+    $bundles = [
+        // ... other bundles
+        new Nelmio\CorsBundle\NelmioCorsBundle(),
+    ];
+    return $bundles;
+}
