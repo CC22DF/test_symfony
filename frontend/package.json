@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^1.2.2",
+    "node-fetch-native": "^1.0.1",
+    "nuxt-fontawesome": "^0.4.0",
+    "vue": "^3.2.45",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-no-ssr": "^1.1.1",
+    "vue-nouislider": "^1.0.1",
+    "vue-property-decorator": "^10.0.0-rc.3",
+    "vue-slider-component": "^3.2.24"
+  }
+}
